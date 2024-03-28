@@ -1,0 +1,7 @@
+"ABCABC"
+"ABC"
+"ABC"
+
+"ABABAB"
+"ABAB"
+"AB"
