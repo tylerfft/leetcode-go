@@ -1,0 +1,7 @@
+"abc"
+"ahbgdc"
+true
+
+"axc"
+"ahbgdc"
+false
