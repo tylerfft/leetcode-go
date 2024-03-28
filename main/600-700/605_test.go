@@ -2,8 +2,7 @@ package main
 
 import (
 	"testing"
-
-	"testutil/testutil"
+	"testutil"
 )
 
 func Test_605(t *testing.T) {

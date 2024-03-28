@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"testutil/testutil"
+	"testutil"
 )
 
 func Test_345(t *testing.T) {

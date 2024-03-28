@@ -1,5 +1,9 @@
 package main
 
+import (
+	. "common"
+)
+
 func increasingTriplet(nums []int) bool {
 	dd := []int{INF, INF, INF}
 	for _, v := range nums {
@@ -12,5 +16,3 @@ func increasingTriplet(nums []int) bool {
 	}
 	return dd[0] != INF && dd[1] != INF && dd[2] != INF
 }
-
-const INF = 1e15
