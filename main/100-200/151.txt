@@ -1,0 +1,8 @@
+"the sky is blue"
+"blue is sky the"
+
+"a good   example"
+"example good a"
+
+"  hello world  "
+"world hello"
