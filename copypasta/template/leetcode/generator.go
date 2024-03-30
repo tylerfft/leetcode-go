@@ -504,7 +504,7 @@ func (p *problem) writeMainFile() error {
 	imports := ""
 	if strings.Contains(p.defaultCode, "Definition for") {
 		imports = `
-import . "github.com/EndlessCheng/codeforces-go/leetcode/testutil"
+import . "testutil"
 `
 	}
 	p.defaultCode = strings.TrimSpace(p.defaultCode)
@@ -537,7 +537,7 @@ func (p *problem) writeTestFile() error {
 package main
 
 import (
-	"github.com/EndlessCheng/codeforces-go/leetcode/testutil"
+	"testutil"
 	"testing"
 )
 

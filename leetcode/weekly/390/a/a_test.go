@@ -2,7 +2,7 @@
 package main
 
 import (
-	"github.com/EndlessCheng/codeforces-go/leetcode/testutil"
+	"testutil"
 	"testing"
 )
 
