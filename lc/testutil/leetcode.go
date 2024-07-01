@@ -335,6 +335,9 @@ func RunLeetCodeFuncWithCase(t *testing.T, f interface{}, rawInputs [][]string, 
 func RunLeetCodeFunc(t *testing.T, f interface{}, rawInputs [][]string, rawOutputs [][]string) error {
 	return RunLeetCodeFuncWithCase(t, f, rawInputs, rawOutputs, 0)
 }
+func RunFuncWithFile(t *testing.T, f interface{}, filePath string, targetCaseNum int) error {
+	return RunLeetCodeFuncWithFile(t, f, filePath, targetCaseNum)
+}
 
 func RunLeetCodeFuncWithFile(t *testing.T, f interface{}, filePath string, targetCaseNum int) error {
 	data, err := os.ReadFile(filePath)
