@@ -2,9 +2,10 @@ package testutil
 
 import (
 	"fmt"
-	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func Test_isTLE(t *testing.T) {
@@ -120,6 +121,11 @@ func TestRunLeetCodeClass(t *testing.T) {
 `}
 	sampleOuts := []string{`[null,null,3,[11,22]]`, `[null,-3,[-11,-22]]`}
 	if err := RunLeetCodeClass(t, constructor, sampleIns, sampleOuts); err != nil {
+		t.Error(err)
+	}
+}
+func TestRunLeetCodeClassWithFile(t *testing.T) {
+	if err := RunLeetCodeClassWithFile(t, constructor, "testwithfile.txt", 0); err != nil {
 		t.Error(err)
 	}
 }

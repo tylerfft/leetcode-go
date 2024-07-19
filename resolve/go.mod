@@ -5,11 +5,8 @@ go 1.22
 require testutil v0.0.0
 
 require (
-	common v0.0.0
-)
-
-require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
@@ -23,7 +20,5 @@ require (
 	golang.org/x/sys v0.17.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace common => ./common
 
 replace testutil => ./testutil
